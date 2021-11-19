@@ -46,6 +46,52 @@
   -o-transform: scale(0.98);
 }
 
+/* Backgrounds and colored buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+/* Text sizes */
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -105,34 +151,33 @@
 
 /* Padding */
 .padding-y-1 {
-    padding: 1rem 0;
-  }
-  .padding-y-2 {
-    padding: 1.5rem 0;
-  }
-  .padding-y-3 {
-    padding: 2rem 0;
-  }
-  .padding-y-4 {
-    padding: 3rem 0;
-  }
-  .padding-y-5 {
-    padding: 4rem 0;
-  }
-  
-  .padding-1 {
-    padding: 1rem;
-  }
-  .padding-2 {
-    padding: 1.5rem;
-  }
-  .padding-3 {
-    padding: 2rem;
-  }
-  .padding-4 {
-    padding: 3rem;
-  }
-  .padding-5 {
-    padding: 4rem;
-  }
+  padding: 1rem 0;
+}
+.padding-y-2 {
+  padding: 1.5rem 0;
+}
+.padding-y-3 {
+  padding: 2rem 0;
+}
+.padding-y-4 {
+  padding: 3rem 0;
+}
+.padding-y-5 {
+  padding: 4rem 0;
+}
 
+.padding-1 {
+  padding: 1rem;
+}
+.padding-2 {
+  padding: 1.5rem;
+}
+.padding-3 {
+  padding: 2rem;
+}
+.padding-4 {
+  padding: 3rem;
+}
+.padding-5 {
+  padding: 4rem;
+}
